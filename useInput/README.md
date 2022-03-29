@@ -1,4 +1,4 @@
-# 사용법
+# useInput
 
 ```js
 const App = () => {
