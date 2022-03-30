@@ -3,8 +3,7 @@ export const useConfirm = (message = "Are you sure?", onConfirm, onCancel) => {
   if (typeof onCancel !== "function") return;
 
   const confirmAction = () => {
-    confirm(message) ? onConfirm() : onCancel();
-    if (confirm(message)) {
+    if (window.confirm(message)) {
       onConfirm();
     } else {
       try {
