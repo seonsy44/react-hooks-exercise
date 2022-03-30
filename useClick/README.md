@@ -1,4 +1,4 @@
-# useTitle
+# useClick
 
 ### Usage
 
